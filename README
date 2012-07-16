@@ -17,3 +17,4 @@ encrypted using SSL/TLS: this ensures that your password is never sent out
 in the clear over the network.
 
 Chris Burdess <dog@bluezoo.org>
+GOA integration by Vadim Rutkovsky <roignac@gmail.com>
