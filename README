@@ -16,5 +16,7 @@ authentication method such as CRAM-MD5 is used or the connection is
 encrypted using SSL/TLS: this ensures that your password is never sent out
 in the clear over the network.
 
+Gnome Online Accounts for GMail is also integrated
+
 Chris Burdess <dog@bluezoo.org>
 GOA integration by Vadim Rutkovsky <roignac@gmail.com>
