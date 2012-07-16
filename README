@@ -1,0 +1,19 @@
+This is the Gnome Shell Biff extension. It provides a visual notification in
+the Gnome Shell status panel, indicating whether unread mail exists in the
+user's mail accounts, and if so, how many messages.
+
+Clicking on the icon launches the default Gnome mail application.
+
+Gnome Biff doesn't define its own mail account settings, it takes them from
+Evolution. So you need to define your mail accounts in Evolution's settings,
+although you don't need to use Evolution as a mail client. You need to have
+set up the passwords to the accounts in Evolution as well, these are stored in
+your Gnome keyring and are not accessible to anyone but you.
+
+SASL PLAIN and CRAM-MD5 authentication mechanisms are supported in addition to
+standard IMAP login. Gnome Biff won't authenticate unless either a secure
+authentication method such as CRAM-MD5 is used or the connection is
+encrypted using SSL/TLS: this ensures that your password is never sent out
+in the clear over the network.
+
+Chris Burdess <dog@bluezoo.org>

@@ -1,0 +1,15 @@
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(10,10,10,0.7);
+    border-radius: 5px;
+    padding: .5em;
+}
+.panel-button {
+    height: 22px;
+}
+.system-status-icon {
+    height: 22px;
+}
